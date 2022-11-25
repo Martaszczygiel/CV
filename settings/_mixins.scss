@@ -1,0 +1,11 @@
+@import "fonts";
+@import "color";
+@import "mixins";
+
+$button-radius: 20px;
+
+@mixin page {
+  @media (max-width: 1352px) {
+    @content;
+  }
+}

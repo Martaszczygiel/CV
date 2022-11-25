@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: $font-family;
+}
+
+a {
+  text-decoration-line: none;
+}
+
+h2 {
+  font-family: $font-family;
+  font-size: 20px;
+}
+
+div {
+  width: 1352px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+
+h1 {
+  font-family: $font-family;
+  font-size: 2rem;
+  font-weight: 300;
+  color: $color-primary;
+}
+
+div {
+  width: 1352px;
+  margin: 0 auto;
+
+  @include main_page {
+    width: 76%;
+    padding: 0 0 0 5px;
+  }
+}
